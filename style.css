@@ -153,7 +153,7 @@ body {
     
   }
 
-canvas { position: fixed; touch-action: none;z-index:-1 }
+canvas { position: absolute; touch-action: none;z-index:-1 }
 
 @media (min-width:700px){
  body{
