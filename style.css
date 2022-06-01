@@ -74,9 +74,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    text-align: center;
     margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
     
   }
   .form-control{
@@ -95,27 +95,29 @@ body {
 
   .some1{
     width: 80%;
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,16%);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
 
   }
   .some2{
     
     width: 80%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,72%);
+    display: block;
+    margin-top:1rem;
+    margin-right: auto;
+    margin-left: auto;
 
 
   }
   
   .grad {
     background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
-    margin: 10px;
-    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
     padding: 8px 42px;
     text-align: center;
     font-weight: 600;
@@ -124,9 +126,7 @@ body {
     color: black;
     border-radius: 18px;
     display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-63%,110%);
+   
     
   }
 
@@ -136,24 +136,21 @@ body {
     text-decoration: none;
   }
   footer{
-    clear: both;
-    position: relative;
-    height: 10px;
-    max-width: 100%;
-    top:2379%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    background-image: linear-gradient(90deg, #5a5bf3 0%, #91e7d9 50%, rgb(0, 255, 170) 100%);
-    margin:0
+  margin-top: 4rem;
+   background:linear-gradient(to right, #01ffff 0%, #069af0 100%);
+    
+  height: 10px;
+
+   
+  }
+  .allButFooter{
+    min-height: calc(100vh - 75px);
   }
   p{
     text-align: center;
     color: white;
-    position: relative;
-    top:50%;
-    left:49.5%;
-    font-weight: 500;
-    transform: translate(-50%,800%);
+    margin-top:10rem;
+    
   }
 
 canvas { position: fixed; touch-action: none;z-index:-1 }
@@ -170,19 +167,13 @@ canvas { position: fixed; touch-action: none;z-index:-1 }
 }
 .some1{
 width: 25%;
-position: relative;
-top: 45%;
-left: 50%;
-transform: translate(-50%,16%);
+
 
 }
 .some2{
 
 width: 25%;
-position: relative;
-top: 50%;
-left: 50%;
-transform: translate(-50%,72%);
+
 
 
 }
@@ -190,4 +181,10 @@ transform: translate(-50%,72%);
       text-align: center;
       margin-top: 5rem;
     }
+     p{
+      margin-top:10rem;
+    }
+    .allButFooter{
+      min-height: calc(100vh - 0px);
+    } 
 }
